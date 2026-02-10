@@ -179,4 +179,4 @@ Konfigurasi yang tepat akan memastikan:
 
 ## References
 - [Confluent Apache Kafka Fundamentals Course & Accreditation](https://partner-training.confluent.io/learn/courses/1073/confluent-apache-kafka-fundamentals-course-accreditation)
-- Confluent Kafka Documentation
+- [Confluent Kafka Documentation](https://docs.confluent.io/kafka/overview.html)
