@@ -178,5 +178,5 @@ Konfigurasi yang tepat akan memastikan:
 ---
 
 ## References
-- :contentReference[oaicite:0]{index=0} Documentation
+- [:contentReference[oaicite:0]{index=0} Documentation](https://partner-training.confluent.io/learn/courses/1073/confluent-apache-kafka-fundamentals-course-accreditation)
 - Confluent Kafka Documentation
