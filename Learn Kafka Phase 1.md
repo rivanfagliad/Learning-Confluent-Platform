@@ -1,9 +1,9 @@
 # 🚀 Learn Kafka – Phase 1  
-**Environment:** Confluent Platform 7.9.x  di Local VM(VirtualBox)
+**Environment:** *Confluent Platform 7.9.x  di Local VM(VirtualBox)*
 ---
-**Mode:** 1 ZooKeeper, 1 Kafka Broker, 1 Schema Registry, 1 Kafka Connect, 1 ksqlDB, 1 Kafka REST Proxy, 1 Control Center
+**Mode:** *(Single Node Confluent Platform Deployment)1 ZooKeeper, 1 Kafka Broker, 1 Schema Registry, 1 Kafka Connect, 1 ksqlDB, 1 Kafka REST Proxy, 1 Control Center*
 ---
-**Specs:** 4-Core CPU, 10GB RAM, 40GB Disk
+**Specs:** *4-Core CPU, 10GB RAM, 40GB Disk*
 ---
 
 ## 2.1 Install Confluent Platform via Package Manager
