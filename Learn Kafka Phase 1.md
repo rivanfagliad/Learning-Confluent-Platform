@@ -71,8 +71,6 @@ Memastikan seluruh package berhasil terpasang tanpa error.
 
 Pada tahap ini saya menjalankan service Confluent Platform menggunakan `systemd`.
 
-Hal ini memungkinkan service berjalan sebagai daemon dan otomatis start saat boot.
-
 ![Deploy Cluster](img/deploy-cluster.png)
 
 ---
