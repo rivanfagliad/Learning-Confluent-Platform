@@ -1,8 +1,7 @@
 # 🚀 Learn Kafka – Phase 1  
-**Environment:** Confluent Platform 7.9.x  
-**Mode:** ZooKeeper  
-**Goal:** Install & verifikasi seluruh service dasar Confluent Platform
-
+**Environment:** Confluent Platform 7.9.x  di Local VM(VirtualBox)
+**Mode:** 1 ZooKeeper, 1 Kafka Broker, 1 Schema Registry, 1 Kafka Connect, 1 ksqlDB, 1 Kafka REST Proxy, 1 Control Center
+**Specs:** 4-Core CPU, 10GB RAM, 40GB Disk
 ---
 
 ## 2.1 Install Confluent Platform via Package Manager
@@ -187,7 +186,7 @@ Memverifikasi cluster ID dari broker metadata.
 
 Pada Phase 1 ini saya berhasil:
 
-✅ Menginstall Confluent Platform 7.9.x  
+✅ Menginstall dan Konfigurasi Confluent Platform 7.9.x  
 ✅ Menjalankan seluruh service utama  
 ✅ Memverifikasi health service  
 ✅ Membuat topic Kafka  
@@ -197,7 +196,3 @@ Pada Phase 1 ini saya berhasil:
 Sebagai validasi akhir, saya memastikan Confluent Control Center dapat diakses melalui browser.
 
 ![Final Check Control Center](img/cek-c3.png)
-
----
-
-# ✅ Phase 1 Completed 🎉
