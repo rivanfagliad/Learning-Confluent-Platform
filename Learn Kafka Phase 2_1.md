@@ -25,12 +25,15 @@ Langkah yang terjadi:
 5️⃣ Message dikirim ke topic **avro-test**
 
 ![Avro Producer](./img/phase2/avro_producer.png)
-
+![Avro Producer](./img/phase2/avro_producer2.png)
+![Avro Producer](./img/phase2/avro_producer3.png)
 ---
 
 ## ✅ Consumer (Avro)
 
 Kemudian saya membaca data menggunakan **kafka-avro-console-consumer**.
+
+![Avro Consumer](./img/phase2/avro_consumer.png)
 
 Proses yang terjadi:
 
@@ -40,7 +43,7 @@ Proses yang terjadi:
 4️⃣ Avro dikonversi kembali menjadi JSON  
 5️⃣ Data ditampilkan ke console
 
-![Avro Consumer](./img/phase2/avro_consumer.png)
+![Avro Consumer](./img/phase2/avro_consumer2.png)
 
 ---
 
@@ -83,6 +86,7 @@ Memastikan connector berjalan normal.
 Mengecek apakah data berhasil masuk ke Kafka topic.
 
 ![Consume Datagen Topic](./img/phase2/consume_datagen_topic.png)
+![Consume Datagen Topic](./img/phase2/consume_datagen_topic2.png)
 
 ---
 
@@ -159,6 +163,7 @@ Memastikan data terbaca di ksqlDB.
 Mapping struktur payload JSON ke kolom stream.
 
 ![Create users_stream](./img/phase2/create_users_stream.png)
+![Create users_stream](./img/phase2/create_users_stream2.png)
 
 ---
 
@@ -167,6 +172,14 @@ Mapping struktur payload JSON ke kolom stream.
 Mengubah nilai gender menjadi uppercase.
 
 ![Uppercase Stream](./img/phase2/users_upper.png)
+
+---
+
+## ✅ Transformasi Data (Lowercase Gender)
+
+Mengubah nilai gender menjadi lower.
+
+![Uppercase Stream](./img/phase2/users_lower.png)
 
 ---
 
@@ -183,6 +196,7 @@ Menyaring data gender FEMALE.
 Menghitung jumlah user per region.
 
 ![Aggregation Table](./img/phase2/users_per_region.png)
+![Aggregation Table](./img/phase2/users_per_region2.png)
 
 ---
 
